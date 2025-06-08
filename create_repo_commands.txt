@@ -1,0 +1,15 @@
+# GitHub Repo Setup (HTTPS)
+
+# 1. Initialize Git
+git init
+
+# 2. Add files
+git add .
+git commit -m "Initial commit: Simple Budget Tracker project"
+
+# 3. Connect to GitHub repo
+git remote add origin https://github.com/YOUR_USERNAME/Shozino.git
+
+# 4. Push
+git branch -M main
+git push -u origin main
